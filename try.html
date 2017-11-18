@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+        <style>
+
+        html, body, #map {
+          width: 90%;
+          height: 90%;
+          margin: 0;
+          padding: 0;
+        }
+
+        .employerlonlat, .employerlonlat svg {
+          position: absolute;
+        }
+
+        .employerlonlat svg {
+          width: 150px;
+          height: 50px;
+          padding-right: 100px;
+          font: 10px sans-serif;
+        }
+
+        .employerlonlat circle {
+          fill: red ;
+          stroke: black ;
+          stroke-width: 0.5px;
+        }
+        
+        </style>
+       
+        <script src="//maps.google.com/maps/api/js?=AIzaSyCrGdGPZHno12-bc5isHqAZ_XiBuleNfBg&sensor=true"></script>
+        <script src="https://d3js.org/d3.v3.min.js"></script>
+        
+    </head>
+   
+    <body>
+    <script>
+        
+        //增加按鈕
+        
+
+        var width = 300;
+        var height = 100;
+        var word = "Pick your School";
+
+        var holder = d3.select("body")
+            .append("svg")
+            .attr("width", width)
+            .attr("height", height);
+        // draw a rectangle
+        holder.append("a")
+            .attr("href", "googleapi.html")
+            .append("rect")
+            .attr("x", 100)
+            .attr("y", 0)
+            .attr("height", 50)
+            .attr("width", 150)
+            .style("fill", "orange")
+            .attr("rx", 10)
+            .attr("ry", 10);
+
+        // draw text on the screen
+        holder.append("text")
+            .attr("x", 170)
+            .attr("y", 20)
+            .style("fill", "black")
+            .style("font-size", "15px")
+            .style("font-family", "calibri")
+            .attr("dy", ".35em")
+            .attr("text-anchor", "middle")
+            .style("pointer-events", "none")
+            .text(word);
+
+
+
+        var width2 = 200;
+        var height2 = 100;
+        var word = "View Company";
+
+        var holder = d3.select("body")
+            .append("svg")
+            .attr("width", width2)
+            .attr("height", height2);
+        // draw a rectangle
+        holder.append("a")
+            .attr("xlink:href", "jobs.html")
+            .append("rect")
+            .attr("x", 0)
+            .attr("y", 0)
+            .attr("height", 50)
+            .attr("width", 150)
+            .style("fill", "orange")
+            .attr("rx", 10)
+            .attr("ry", 10);
+
+        // draw text on the screen
+        holder.append("text")
+            .attr("x", 75)
+            .attr("y", 20)
+            .style("fill", "black")
+            .style("font-size", "15px")
+            .style("font-family", "calibri")
+            .attr("dy", ".35em")
+            .attr("text-anchor", "middle")
+            .style("pointer-events", "none")
+            .text(word);
+
+
+        var width3 = 200;
+        var height3 = 100;
+        var word = "Company Location";
+
+        var holder = d3.select("body")
+            .append("svg")
+            .attr("width", width3)
+            .attr("height", height3);
+        // draw a rectangle
+        holder.append("a")
+            .attr("href", "try.html")
+            .append("rect")
+            .attr("x", 0)
+            .attr("y", 0)
+            .attr("height", 50)
+            .attr("width", 150)
+            .style("fill", "#ff6200")
+            .attr("rx", 10)
+            .attr("ry", 10);
+
+        // draw text on the screen
+        holder.append("text")
+            .attr("x", 75)
+            .attr("y", 20)
+            .style("fill", "black")
+            .style("font-family", "calibri")
+            .style("font-size", "15px")
+            .attr("dy", ".35em")
+            .attr("text-anchor", "middle")
+            .style("pointer-events", "none")
+            .text(word);
+    </script>
+
+        <div id="map"></div>
+        <script>
+
+            // 產生 Google Map…
+            var map = new google.maps.Map(d3.select("#map").node(), {
+              zoom: 4,
+              center: new google.maps.LatLng(37.09024,-95.712891),
+              mapTypeId: google.maps.MapTypeId.TERRAIN
+            });
+
+            // 讀取外部資料，讀完後建立一個overlay
+            
+            d3.csv("employerlonlat.csv", function(dataSet) {
+            
+              var overlay = new google.maps.OverlayView();
+  
+              // 當overlay加入後，增加一個分層layer
+                
+              overlay.onAdd = function() {
+                var layer = d3.select(this.getPanes().overlayMouseTarget).append("div")
+                    .attr("class", "employerlonlat");
+
+                // 畫出獨立的每一個資料點
+                overlay.draw = function() {
+                  var projection = this.getProjection(),
+                      padding = 10;
+
+                  var marker = layer.selectAll("svg")
+                      .data(d3.entries(dataSet))
+                      .each(transform)
+                      .enter().append("svg")
+                      .each(transform)
+                      .attr("class", "marker");
+
+                  // 增加圓點，並打開滑鼠事件，讓文字在滑鼠移入時出現
+                  marker.append("circle")
+                      .attr("r", 2)
+                      .attr("cx", padding)
+                      .attr("cy", padding)
+                      .on("mouseover",function(d){
+                          d3.select(this.parentNode).select("text").attr({
+                             opacity: 1
+                          });
+                      })
+                      .on("mouseout",function(d){
+                           d3.select(this.parentNode).select("text").attr({
+                             opacity: 0
+                          });
+                      });
+
+                  // 增加文字說明
+                  marker.append("text")
+                      .attr({
+                          x:padding + 20,
+                          y:padding,
+                          "font-size": "13px",
+                          opacity: 0
+                      })     
+                      .text(function(d) { return d.value.employer_names; })
+                      
+
+                  function transform(d) {
+                  console.log(d);
+                    d = new google.maps.LatLng(d.value.lat, d.value.lon);
+                      
+                      console.log
+                      
+                    d = projection.fromLatLngToDivPixel(d);
+                      
+                    return d3.select(this)
+                        .style("left", (d.x - padding) + "px")
+                        .style("top", (d.y - padding) + "px");
+                  }
+                };
+              };
+
+              // 綁定overlay到地圖中
+              overlay.setMap(map);
+            });
+
+            </script>
+
+      </body>
+</html>
+

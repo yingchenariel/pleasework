@@ -1,0 +1,111 @@
+UNITID,INSTNM,ADDR,CITY,STABBR,WEBADDR,COUNTYNM,LONGTITUDE,LATITUDE
+104151,Arizona State University,University Drive and Mill Avenue,Tempe,AZ,www.asu.edu/,"Maricopa County, AZ",-111.940011,33.421921
+110404,California Institute of Technology,1200 E California Blvd,Pasadena,CA,www.caltech.edu,"Los Angeles County, CA",-118.12574,34.139275
+110422,California Polytechnic State University-San Luis Obispo,One Grand Ave,San Luis Obispo,CA,www.calpoly.edu,"San Luis Obispo County, CA",-120.65856,35.29889
+110635,University of California-Berkeley,200 California Hall,Berkeley,CA,www.berkeley.edu,"Alameda County, CA",-122.2604,37.87152
+110644,University of California-Davis,One Shields Avenue,Davis,CA,www.ucdavis.edu,"Yolo County, CA",-121.751958,38.539895
+110653,University of California-Irvine,501 Aldrich Hall,Irvine,CA,www.uci.edu/,"Orange County, CA",-117.768639,33.667002
+110662,University of California-Los Angeles,405 Hilgard Ave,Los Angeles,CA,www.ucla.edu/,"Los Angeles County, CA",-118.443901,34.068892
+110671,University of California-Riverside,900 University Ave,Riverside,CA,WWW.UCR.EDU,"Riverside County, CA",-117.331098,33.97588
+110680,University of California-San Diego,9500 Gilman Dr,La Jolla,CA,www.ucsd.edu,"San Diego County, CA",-117.237793,32.876598
+110699,University of California-San Francisco,500 Parnassus Ave,San Francisco,CA,www.ucsf.edu,"San Francisco County, CA",-122.458049,37.762736
+110705,University of California-Santa Barbara,5221 Cheadle Hall,Santa Barbara,CA,www.ucsb.edu,"Santa Barbara County, CA",-119.848071,34.415461
+110714,University of California-Santa Cruz,1156 High St,Santa Cruz,CA,www.ucsc.edu/,"Santa Cruz County, CA",-122.067993,36.997258
+122597,San Francisco State University,1600 Holloway Ave,San Francisco,CA,www.sfsu.edu,"San Francisco County, CA",-122.477905,37.721345
+122755,San Jose State University,1 Washington Sq,San Jose,CA,www.sjsu.edu,"Santa Clara County, CA",-121.881214,37.335201
+123961,University of Southern California,University Park,Los Angeles,CA,www.usc.edu/,"Los Angeles County, CA",-118.283858,34.021058
+126562,University of Colorado Denver,"1380 Lawrence Street, Lawrence Street Center, Suite 1400",Denver,CO,www.ucdenver.edu/,"Denver County, CO",-104.999313,39.746397
+126614,University of Colorado Boulder,Regent Drive at Broadway,Boulder,CO,www.colorado.edu,"Boulder County, CO",-105.267061,40.004415
+129020,University of Connecticut,352 Mansfield Road,Storrs,CT,www.uconn.edu,"Tolland County, CT",-72.249536,41.808215
+130794,Yale University,Woodbridge Hall,New Haven,CT,www.yale.edu,"New Haven County, CT",-72.92886,41.310189
+130943,University of Delaware,104 Hullihen Hall,Newark,DE,www.udel.edu/,"New Castle County, DE",-75.753579,39.679782
+131159,American University,4400 Massachusetts Ave NW,Washington,DC,WWW.AMERICAN.EDU,"District of Columbia, DC",-77.090106,38.937802
+131469,George Washington University,"2121 I Street, NW",Washington,DC,www.gwu.edu,"District of Columbia, DC",-77.047871,38.89865
+131496,Georgetown University,37th and O St NW,Washington,DC,www.georgetown.edu,"District of Columbia, DC",-77.073463,38.908809
+134097,Florida State University,222 S. Copeland Street,Tallahassee,FL,www.fsu.edu,"Leon County, FL",-84.290884,30.43974
+134130,University of Florida,355 Tigert Hall,Gainesville,FL,www.ufl.edu/,"Alachua County, FL",-82.361195,29.638248
+135726,University of Miami,University of Miami,Coral Gables,FL,www.miami.edu/,"Miami-Dade County, FL",-80.27645,25.720406
+137351,University of South Florida-Main Campus,4202 East Fowler Ave,Tampa,FL,www.usf.edu,"Hillsborough County, FL",-82.415876,28.056647
+139658,Emory University,"408 Administration Building, 201 Dowman Drive",Atlanta,GA,www.emory.edu,"DeKalb County, GA",-84.325782,33.798836
+139755,Georgia Institute of Technology-Main Campus,225 North Ave,Atlanta,GA,www.gatech.edu,"Fulton County, GA",-84.396019,33.773732
+141574,University of Hawaii at Manoa,"2500 Campus Road, Hawaii Hall, Room 001",Honolulu,HI,manoa.hawaii.edu,"Honolulu County, HI",-157.816607,21.292648
+144050,University of Chicago,5801 S Ellis Ave,Chicago,IL,WWW.UCHICAGO.EDU,"Cook County, IL",-87.601196,41.78917
+145637,University of Illinois at Urbana-Champaign,601 E John Street,Champaign,IL,www.illinois.edu/,"Champaign County, IL",-88.230309,40.108864
+145725,Illinois Institute of Technology,3300 S Federal St,Chicago,IL,www.iit.edu,"Cook County, IL",-87.628346,41.833801
+147767,Northwestern University,633 Clark St,Evanston,IL,www.northwestern.edu,"Cook County, IL",-87.673653,42.058377
+149587,University of Illinois University Administration,"364 Henry Administration Building, 506 S Wright Street",Urbana,IL,www.uillinois.edu,"Champaign County, IL",-88.228381,40.108488
+151351,Indiana University-Bloomington,107 South Indiana Ave.,Bloomington,IN,www.iub.edu,"Monroe County, IN",-86.526904,39.166383
+152080,University of Notre Dame,400 Main Building,Notre Dame,IN,www.nd.edu,"St. Joseph County, IN",-86.289848,41.616717
+152248,Purdue University-Calumet Campus,2200 169th St,Hammond,IN,www.purduecal.edu/,"Lake County, IN",-87.47376,41.584742
+152266,Purdue University-North Central Campus,1401 S US Hwy 421,Westville,IN,www.pnc.edu,"LaPorte County, IN",-86.89523,41.583788
+153603,Iowa State University,3410 Beardshear Hall,Ames,IA,www.iastate.edu,"Story County, IA",-93.648353,42.026368
+153658,University of Iowa,101 Jessup Hall,Iowa City,IA,www.uiowa.edu,"Johnson County, IA",-91.535698,41.660695
+155317,University of Kansas,"Strong Hall, 1450 Jayhawk Blvd, Room 230",Lawrence,KS,www.ku.edu/,"Douglas County, KS",-95.24587,38.95735
+160755,Tulane University of Louisiana,6823 Saint Charles Ave,New Orleans,LA,www.tulane.edu,"Orleans Parish, LA",-90.120409,29.939696
+162928,Johns Hopkins University,"3400 N Charles St, Mason Hall",Baltimore,MD,www.jhu.edu,"Baltimore city, MD",-76.620799,39.32838
+163204,University of Maryland-University College,3501 University Blvd East,Adelphi,MD,www.umuc.edu,"Prince George's County, MD",-76.954104,38.986299
+163259,University of Maryland-Baltimore,620 West Lexington St,Baltimore,MD,www.umaryland.edu,"Baltimore city, MD",-76.625033,39.291348
+163286,University of Maryland-College Park, ,College Park,MD,www.umd.edu,"Prince George's County, MD",-76.939704,38.988607
+164924,Boston College,140 Commonwealth Avenue,Chestnut Hill,MA,www.bc.edu,"Middlesex County, MA",-71.171488,42.337688
+164988,Boston University,One Silber Way,Boston,MA,www.bu.edu,"Suffolk County, MA",-71.09984,42.349581
+165015,Brandeis University,415 South St,Waltham,MA,www.brandeis.edu/,"Middlesex County, MA",-71.254716,42.364947
+165334,Clark University,950 Main St,Worcester,MA,www.clarku.edu,"Worcester County, MA",-71.823537,42.251064
+166027,Harvard University,Massachusetts Hall,Cambridge,MA,www.harvard.edu/,"Middlesex County, MA",-71.118177,42.374429
+166629,University of Massachusetts Amherst,374 Whitmore Building,Amherst,MA,www.umass.edu,"Hampshire County, MA",-72.527401,42.390989
+166683,Massachusetts Institute of Technology,77 Massachusetts Avenue,Cambridge,MA,web.mit.edu/student/,"Middlesex County, MA",-71.092115,42.360095
+167358,Northeastern University,360 Huntington Ave,Boston,MA,www.northeastern.edu,"Suffolk County, MA",-71.088782,42.339992
+168148,Tufts University, ,Medford,MA,www.tufts.edu,"Middlesex County, MA",-71.120641,42.406004
+170976,University of Michigan-Ann Arbor,503 Thompson Street,Ann Arbor,MI,www.finaid.umich.edu/TopNav/Resources/MCalc.aspx,"Washtenaw County, MI",-83.743132,42.276137
+171100,Michigan State University, ,East Lansing,MI,www.msu.edu,"Ingham County, MI",-84.473639,42.72476
+172644,Wayne State University,656 West Kirby Street,Detroit,MI,www.wayne.edu,"Wayne County, MI",-83.072864,42.35861
+174066,University of Minnesota-Twin Cities,100 Church Street SE,Minneapolis,MN,www1.umn.edu/twincities/index.php,"Hennepin County, MN",-93.235352,44.977886
+179867,Washington University in St Louis,One Brookings Drive,Saint Louis,MO,www.wustl.edu,"St. Louis County, MO",-90.311639,38.648125
+181464,University of Nebraska-Lincoln,14th and R St,Lincoln,NE,www.unl.edu/,"Lancaster County, NE",-96.702177,40.822272
+182670,Dartmouth College,207 Parkhurst Hall,Hanover,NH,www.dartmouth.edu,"Grafton County, NH",-72.260331,43.71365
+186131,Princeton University,1 Nassau Hall,Princeton,NJ,www.princeton.edu,"Mercer County, NJ",-74.664365,40.348235
+186380,Rutgers University-New Brunswick,83 Somerset St,New Brunswick,NJ,www.rutgers.edu/,"Middlesex County, NJ",-74.45051,40.503796
+187985,University of New Mexico-Main Campus,1700 Lomas Blvd NE,Albuquerque,NM,www.unm.edu,"Bernalillo County, NM",-106.620155,35.083868
+190150,Columbia University in the City of New York,West 116 St and Broadway,New York,NY,www.columbia.edu,"New York County, NY",-73.961885,40.808286
+190415,Cornell University,300 Day Hall,Ithaca,NY,www.cornell.edu,"Tompkins County, NY",-76.48269,42.44529
+193900,New York University,70 Washington Sq South,New York,NY,www.nyu.edu,"New York County, NY",-73.997264,40.729452
+194824,Rensselaer Polytechnic Institute,110 8th St,Troy,NY,www.rpi.edu,"Rensselaer County, NY",-73.678768,42.728983
+195030,University of Rochester,Wilson Blvd. - Wallis Hall,Rochester,NY,www.rochester.edu,"Monroe County, NY",-77.631622,43.12658
+196088,University at Buffalo,12 Capen Hall,Buffalo,NY,www.buffalo.edu,"Erie County, NY",-78.789187,43.000416
+196097,Stony Brook University,310 Administration Building,Stony Brook,NY,www.stonybrook.edu,"Suffolk County, NY",-73.147259,40.916417
+196130,SUNY College at Buffalo,1300 Elmwood Ave,Buffalo,NY,www.buffalostate.edu,"Erie County, NY",-78.88067,42.934199
+196413,Syracuse University,"Crouse Hinds Hall, Suite 600",Syracuse,NY,syr.edu/,"Onondaga County, NY",-76.135062,43.037587
+198419,Duke University,103 Allen Bldg,Durham,NC,WWW.DUKE.EDU,"Durham County, NC",-78.94226,36.00159
+199120,University of North Carolina at Chapel Hill,103 South Bldg Cb 9100,Chapel Hill,NC,www.unc.edu,"Orange County, NC",-79.050969,35.912165
+199193,North Carolina State University at Raleigh,2101 Hillsborough Street,Raleigh,NC,www.ncsu.edu,"Wake County, NC",-78.674517,35.785111
+199847,Wake Forest University,1834 Wake Forest Road,Winston Salem,NC,www.wfu.edu,"Forsyth County, NC",-80.279004,36.135301
+201645,Case Western Reserve University,10900 Euclid Ave,Cleveland,OH,www.case.edu,"Cuyahoga County, OH",-81.605769,41.500812
+202763,The University of Findlay,1000 N Main St,Findlay,OH,www.findlay.edu/,"Hancock County, OH",-83.652067,41.05441
+207500,University of Oklahoma Norman Campus,660 Parrington Oval,Norman,OK,www.ou.edu,"Cleveland County, OK",-97.445692,35.208152
+207971,University of Tulsa,800 South Tucker Drive,Tulsa,OK,www.utulsa.edu,"Tulsa County, OK",-95.945175,36.151887
+209542,Oregon State University,1500 S.W. Jefferson,Corvallis,OR,oregonstate.edu,"Benton County, OR",-123.27415,44.564523
+209551,University of Oregon,110 Johnson Hall,Eugene,OR,www.uoregon.edu,"Lane County, OR",-123.07398,44.044515
+211440,Carnegie Mellon University,5000 Forbes Avenue,Pittsburgh,PA,www.cmu.edu/,"Allegheny County, PA",-79.942914,40.444616
+212054,Drexel University,3141 Chestnut St,Philadelphia,PA,www.drexel.edu,"Philadelphia County, PA",-75.188745,39.954855
+213543,Lehigh University,27 Memorial Drive West,Bethlehem,PA,www.lehigh.edu,"Northampton County, PA",-75.378887,40.607158
+214777,Pennsylvania State University-Main Campus,201 Old Main,University Park,PA,www.psu.edu/,"Centre County, PA",-77.861644,40.800732
+215062,University of Pennsylvania,34th and Spruce Streets,Philadelphia,PA,www.upenn.edu,"Philadelphia County, PA",-75.193618,39.951002
+215293,University of Pittsburgh-Pittsburgh Campus,4200 Fifth Avenue,Pittsburgh,PA,www.pitt.edu,"Allegheny County, PA",-79.954692,40.444502
+217156,Brown University,One Prospect Street,Providence,RI,www.brown.edu,"Providence County, RI",-71.404467,41.827605
+221759,The University of Tennessee,527 Andy Holt Tower,Knoxville,TN,www.tennessee.edu,"Knox County, TN",-83.929696,35.955093
+221999,Vanderbilt University,2101 West End Avenue,Nashville,TN,www.vanderbilt.edu,"Davidson County, TN",-86.804875,36.14443
+227757,Rice University,6100 S Main,Houston,TX,www.rice.edu,"Harris County, TX",-95.403625,29.716485
+227757,University of Texas at Austin,110 Inner Campus Drive,Austin,TX,https://www.utexas.edu,,-97.73792,30.28398
+227757,University of Texas at Dallas,"800 W Campbell Rd,",Dallas,TX,http://www.utdallas.edu,,-96.751766,32.979737
+228723,Texas A & M University-College Station,805 Rudder Tower,College Station,TX,www.tamu.edu,"Brazos County, TX",-96.306729,30.596292
+230764,University of Utah,"201 Presidents Circle, ROOM 203",Salt Lake City,UT,www.utah.edu,"Salt Lake County, UT",-111.846044,40.762484
+231174,University of Vermont,85 S Prospect St,Burlington,VT,www.uvm.edu,"Chittenden County, VT",-73.198128,44.479262
+233921,Virginia Polytechnic Institute and State University,222 Burruss Hall,Blacksburg,VA,WWW.VT.EDU,"Montgomery County, VA",-80.434849,37.237477
+234076,University of Virginia-Main Campus,1827 University Avenue,Charlottesville,VA,www.virginia.edu/,"Charlottesville city, VA",-78.502597,38.036548
+236595,Seattle University,900 Broadway,Seattle,WA,www.seattleu.edu,"King County, WA",-122.3197,47.610138
+236939,Washington State University,French Administration Building,Pullman,WA,wsu.edu/,"Whitman County, WA",-117.158168,46.730448
+236948,University of Washington-Seattle Campus,1400 NE Campus Parkway,Seattle,WA,www.washington.edu,"King County, WA",-122.313115,47.656213
+240444,University of Wisconsin-Madison,500 Lincoln Dr,Madison,WI,www.wisc.edu,"Dane County, WI",-89.405356,43.073858
+243744,Stanford University, ,Stanford,CA,www.stanford.edu/,"Santa Clara County, CA",-122.182212,37.431746
+243780,Purdue University-Main Campus,Hovde Hall of Administration,West Lafayette,IN,www.purdue.edu,"Tippecanoe County, IN",-86.914435,40.428206
+445188,University of California-Merced,5200 North Lake Road,Merced,CA,www.ucmerced.edu,"Merced County, CA",-120.424944,37.366237
+446978,Colorado State University-System Office,"410 17th Street, Suite 2440",Denver,CO,www.pres.colostate.edu,"Denver County, CO",-104.988532,39.744169
